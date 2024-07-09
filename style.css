@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("The\ Love\ Hypothesis.jpeg");
+    background-size: auto;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.player {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+}
+
+#header {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+audio {
+    width: 100%;
+    outline: none;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    background: blueviolet;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #f9d423;
+}
+
+button:focus {
+    outline: none;
+}
